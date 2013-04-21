@@ -6,12 +6,13 @@
 // Calculate discounted price for an item
 
 var orignPrc = 50.55;  // Original price of item
-var discPrc = 15 ;  //  Discount percentage
-var discpt =  "Fly reel" ; // Description of item
-var sTaxPrc =  8 ; // Sales tax percentage
+var discPrc = 15;  //  Discount percentage
+var discpt =  "Fly reel"; // Description of item
+var sTaxPrc =  8; // Sales tax percentage
 
-    var prcWtax = orignPrc * discPrc + prcWoTax * sTaxPrc; // Price of item with tax
     var prcWoTax = orignPrc * discPrc ; // Price of item without tax
+    var prcWtax = orignPrc * discPrc + prcWoTax * sTaxPrc; // Price of item with tax
+
 
 
 // Printing out the output of the item it's original price, the discount percentage, and the with and without tax prices
